@@ -23,7 +23,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build EXE with PyInstaller
-        run: pyinstaller --onefile mypingy
+        run: pyinstaller --onefile mypingy.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
