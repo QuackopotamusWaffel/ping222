@@ -3,7 +3,7 @@ name: Build EXE
 on:
   push:
     branches:
-      - main  # oder der Branch, den du benutzt
+      - main
 
 jobs:
   build:
